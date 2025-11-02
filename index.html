@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Type</title>
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <script defer src="./scripts/script.js"></script>
+
+    <link rel="stylesheet" href="./styles/styles.css" />
+  </head>
+  <body>
+    <div class="stats-container stats-top">
+      <div class="stat-card">
+        <i data-lucide="keyboard"></i>
+        <span id="total">0</span>
+      </div>
+      <div class="stat-card stat-success">
+        <i data-lucide="check-circle"></i>
+        <span id="correct">0</span>
+      </div>
+      <div class="stat-card stat-error">
+        <i data-lucide="x-circle"></i>
+        <span id="incorrect">0</span>
+      </div>
+    </div>
+
+    <div class="text-container">
+      <div id="target-text" class="target-text"></div>
+    </div>
+
+    <div class="stats-container stats-bottom">
+      <div class="stat-card">
+        <i data-lucide="crosshair"></i>
+        <span id="correctness">0</span>
+      </div>
+      <div class="stat-card stat-clickable" id="restart">
+        <i data-lucide="rotate-ccw"></i>
+      </div>
+    </div>
+
+    <input id="input-controller" type="text" class="input-controller" />
+    <span class="input-hint">Click to type</span>
+  </body>
+</html>
