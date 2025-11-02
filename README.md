@@ -6,12 +6,8 @@ An interactive typing game built with JavaScript and TailwindCSS. Users type ran
 
 ## Table of Contents
 
-* [Demo](#demo)
 * [Features](#features)
-* [HTML Structure](#html-structure)
 * [How It Works](#how-it-works)
-* [Installation](#installation)
-* [Usage](#usage)
 * [Technologies](#technologies)
 
 ---
